@@ -3,7 +3,7 @@
 ---
 
 ## Outline
-1. <a name="what-is-this-project?">What is this project?</a>
+1. [What is this project?](#what-is-this-project?)
 2. Dataset
 3. EDA
 4. Method
@@ -11,7 +11,7 @@
 6. Disclaimer
 ---
 
-## [What is this project?](#what-is-this-project?)
+## <a name="what-is-this-project?">What is this project?</a>
 
 Tell me your favorite book. I will recommend books you will like
 
