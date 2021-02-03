@@ -3,7 +3,7 @@
 ---
 
 ## Outline
-1. <a name="what-is-this-project?"></a>What is this project?
+1. <a name="what-is-this-project?">What is this project?</a>
 2. Dataset
 3. EDA
 4. Method
