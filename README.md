@@ -1,6 +1,9 @@
 # Book recommendation system
 ---
 
+[Code](https://github.com/noah992/book-recommender-system/blob/main/code/import.ipynb)
+
+
 ## Outline
 1. [What is this project?](#what-is-this-project?)
 2. [Dataset](#dataset)
