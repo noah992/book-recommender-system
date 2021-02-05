@@ -70,4 +70,7 @@ So here is 9 books which are similar to `16 Lighthouse Road` based on reviewers 
 This system constrains books number.
 This works certain 1000 books that I used to made this system.
 
-credit [Kaggle](https://www.kaggle.com/ruchi798/bookcrossing-dataset) 
+---
+
+#### Credit
+Kaggle: https://www.kaggle.com/ruchi798/bookcrossing-dataset
