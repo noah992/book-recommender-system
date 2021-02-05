@@ -1,8 +1,8 @@
 # Book recommendation system
 ---
 
-[Code](https://github.com/noah992/book-recommender-system/blob/main/code/import.ipynb)
-[Dataset](https://github.com/noah992/book-recommender-system/tree/main/data)
+* [Code](https://github.com/noah992/book-recommender-system/blob/main/code/import.ipynb)
+* [Dataset](https://github.com/noah992/book-recommender-system/tree/main/data)
 
 
 ## Outline
