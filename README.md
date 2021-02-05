@@ -1,5 +1,4 @@
-# Book recommendation system (Building..)
-
+# Book recommendation system
 ---
 
 ## Outline
@@ -12,10 +11,10 @@
 
 ## <a name="what-is-this-project?">What is this project?</a>
 
-Tell me your favorite book. I will introduce some books you would like.
+Tell me your favorite book. I will list some books that you would like.
 
-This is a project to create recommendar system.
-This system calculate similarity of books based on reviews and reviewers and then let you know books similar to your favorite boks.
+I assembled book recommendation system.
+This system calculates similarity of books based on the reviews and the reviewers and then give you books that has a good similarity score.
 
 ---
 ## <a name="dataset">Dataset</a>
@@ -32,19 +31,20 @@ Data dictionary
 ---
 ## <a name="how-this-works">Eda</a>
 
-I made DataFrame that contains similarily of books to one another using `pair_distances` module to calculate cosine distances based on the book rating.
-I used only infuential data, which means it has
+I made DataFrame that contains similarily of books to one another using `pair_distances` module and calculated cosine distances based on the book rating.
+I used only infuential data, which means that that books have
 
 * No missing values
-* Books which are left more than 50 reviews
+* More than 50 reviews
 
-This app refers reviews which are given by users. It is easier to find the similarity with other books which have many reviews
+This system refers reviews which are given by users, and then calculates relation between books so more reviewers left rating on a book, more useful the book is.
+It is better to use books which have many reviews
 
 ---
 ## <a name="demonstration">Demonstration</a>
 
 When I feed a book, `16 Lighthouse Road`, to the system, it returns books which has a similarity score closer to 0.
-Closer to 0 similarity score is, more similar the book is.
+Closer to 0 the similarity score is, more similar to `16 Lighthouse Road` the book is.
 
 So here is 9 books which are similar to `16 Lighthouse Road` based on reviewers and thier rating.
 
@@ -65,4 +65,5 @@ So here is 9 books which are similar to `16 Lighthouse Road` based on reviewers 
 
 This system constrains books number.
 This works certain 1000 books that I used to made this system.
+
 credit [Kaggle](https://www.kaggle.com/ruchi798/bookcrossing-dataset) 
